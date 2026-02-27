@@ -1,0 +1,73 @@
+body{
+margin:0;
+font-family:Arial, sans-serif;
+background:radial-gradient(circle,#001f4d,#000814);
+color:white;
+}
+
+#game{
+width:900px;
+margin:30px auto;
+text-align:center;
+}
+
+h1{
+font-size:32px;
+margin-bottom:10px;
+}
+
+#environment{
+font-size:18px;
+margin-bottom:10px;
+}
+
+#xpBarContainer{
+width:100%;
+background:#111;
+height:20px;
+border-radius:10px;
+margin-bottom:15px;
+}
+
+#xpBar{
+height:100%;
+width:0%;
+background:linear-gradient(90deg,#00ff99,#00ccff);
+border-radius:10px;
+transition:width .3s;
+}
+
+#card{
+background:white;
+color:#1f2d3d;
+padding:25px;
+border-radius:12px;
+min-height:260px;
+text-align:left;
+}
+
+.passage{
+font-size:14px;
+margin-bottom:15px;
+}
+
+.choice{
+background:#e8f1ff;
+padding:10px;
+margin:8px 0;
+border-radius:6px;
+cursor:pointer;
+transition:.2s;
+}
+
+.choice:hover{
+background:#cce0ff;
+}
+
+.correct{background:#c8f7c5 !important;}
+.incorrect{background:#ffcccc !important;}
+
+#stats{
+margin-top:15px;
+font-size:14px;
+}
